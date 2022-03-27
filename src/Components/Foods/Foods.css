@@ -18,3 +18,49 @@
     background-color: darkgray;
     border-radius: 10px;
 }
+.cart-summery h2{
+    padding-left: 15px;
+}
+.btn-cart button{
+    color:#fff;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 12px;
+    border:none;
+    font-weight: bold;
+    border-radius: 18px;
+    background-color: darkmagenta;
+}
+.btn-cart button:hover{
+    color: orange;
+}
+.btn-cart{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .foods-container{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 15px;
+        margin-top: 25px;
+    }
+    .foods{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .foods-container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 15px;
+        margin-top: 25px;
+    }
+    .foods{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+}

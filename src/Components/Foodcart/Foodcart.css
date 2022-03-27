@@ -1,5 +1,22 @@
-.foodcart{
+.cart-list{
+    margin: 15px;
+    background-color: aliceblue;
     position: sticky;
     top:0;
-    padding-left: 20px;   
+    padding:2px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 5px;   
+}
+.food-cart img{
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+}
+button .f-icon{
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
 }
