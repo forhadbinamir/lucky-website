@@ -41,6 +41,22 @@
   color:darkmagenta;
 }
 
+@media only screen and (min-width: 481px) and ( max-width:768px)and (max-width:978px){
+  .title-text h1{
+    width: 80%;
+    margin: auto;
+    margin-top: 12px;
+  }
+  
+}
+@media only screen and (max-width: 480px){
+  .title-text h1{
+    width: 80%;
+    margin: auto;
+  }
+  
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
