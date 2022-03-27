@@ -1,0 +1,11 @@
+.question{
+    width: 90%;
+    margin: auto;
+   
+    border-radius: 20px;
+    background-color: #ccc;
+    color:#1b1717a1;
+}
+.question h2, p{
+    padding: 10px 25px;
+}

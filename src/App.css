@@ -28,6 +28,19 @@
   color: #61dafb;
 }
 
+.title-text h1{
+  width: 30%;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  background-color: rgb(228, 224, 224);
+  padding: 10px;
+  border-radius: 10px;
+}
+.title-text .text-color{
+  color:darkmagenta;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
